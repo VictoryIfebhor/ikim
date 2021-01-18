@@ -2,36 +2,37 @@ User Types:
 
 Admin
 Author
-User Stories
+
+User Stories:
 
 Admin User
 
 Authentication
-
 As admin user i want to be able to
 Register on the app so i can have admin control
 Sign in to the app using a valid email/username and password
 Request to reset password using my email so that i can regain access to the app
 Receive password reset link via email so that i can reset my password
 Reset my password so that i can regain access to the app
-Articles
 
+Articles
 As admin user i want to be able to
 Update, View, Delete blog articles created by me and author users
 Receive notification on created articles by author user so i can approve them
 Approve blog articles created by author users so they can be published
 Bookmark articles so i can read on my free time
-Author User
-Authentication
 
+Author User
+
+Authentication
 As author user i want to be able to
 Register on the app so i can have author control
 Sign in to the app using a valid email/username and password
 Request to reset password using my email so that i can regain access to the app
 Receive password reset link via email so that i can reset my password
 Reset my password so that i can regain access to the app
-Articles
 
+Articles
 As Author user i want to be able to
 CRUD blog articles so others can read
 Receive notifications on when my article is approved by admin
