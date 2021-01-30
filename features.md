@@ -8,47 +8,57 @@
 
 ### User Stories
 
+
 #### Admin
 
 ###### Authentication
-
 As admin user i want to be able to
-* Register on the app so i can have admin control
-* Sign in to the app using a valid email/username and password
-* Request to reset password using my email so that i can regain access to the app
-* Receive password reset link via email so that i can reset my password
-* Reset my password so that i can regain access to the app
 
-###### Articles
+* login using an email and password
+* reset my password is I forget my password
+* change my password if the current one is compromised
 
+###### Admin Permissions
 As admin user i want to be able to
-* Update, View, Delete blog articles created by me and author users
-* Receive notification on created articles by author user so i can approve them
-* Approve blog articles created by author users so they can be published
-* Bookmark articles so i can read on my free time
+
+* CRUD authors
+* CRUD users
+* change a user to an author or admin
+* change an admin to an author or user
+* change an author to a user or admin
+* CRUD posts
+* CRUD post categories
+* pin a post so it is always at the top of the post list page
+* approve CRUD of posts by authors
+* receive notifications for approval of CRUD of posts by authors
+* approve comments if blog posts comments require approval
+* hide or delete inappropriate comments
+* change blog settings
+
 
 #### Author
 
 ###### Authentication
-
 As author user i want to be able to
-* Register on the app so i can have author control
-* Sign in to the app using a valid email/username and password
-* Request to reset password using my email so that i can regain access to the app
-* Receive password reset link via email so that i can reset my password
-* Reset my password so that i can regain access to the app
-  
-###### Articles
 
+* login to the app using an email and password or with a third party authentication
+* reset my password is I forget my password
+* change my password if the current one is compromised
+  
+###### Admin Permissions
 As Author user i want to be able to
-* CRUD blog articles so others can read
-* Receive notifications on when my article is approved by admin
-* Receive notifications on when a reader like my post
-* Receive notifications on when a reader comment
+
+* CRUD posts
+* receive notifications on when my post is approved by admin
+* receive notifications when a reader likes my post
+* receive notifications when a reader comments on my post
+* approve comments on my posts if comments require approval
+* hide comments on my posts that are considered inappropriate
+
 
 #### User
+As a user, I want to be able to
 
-As a user, I want to be able to:
 * Bookmark articles so I can read on my free time
 * Search articles
 * Filter article by category, most recent, most read and sort by date
